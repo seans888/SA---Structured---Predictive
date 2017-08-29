@@ -11,4 +11,12 @@
         txtName.Text = "Hello " & txtName.Text
 
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnMessage.Click
+        MessageBox.Show("Hello " & txtName.Text, "Hello" & txtName.Text)
+    End Sub
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles btnExit.Click
+        Me.Close()
+    End Sub
 End Class
