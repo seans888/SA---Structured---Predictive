@@ -40,4 +40,18 @@
         End Try
 
     End Sub
+
+    Private Sub txtDivideVal1_TextChanged(sender As Object, e As EventArgs) Handles txtDivideVal1.TextChanged
+
+
+    End Sub
+
+    Private Sub btnDivideValues_Click(sender As Object, e As EventArgs) Handles btnDivideValues.Click
+
+        Dim firstNum As Decimal = CDec(txtDivideVal1.Text)
+        Dim secondNum As Decimal = CDec(txtDivideVal2.Text)
+        Dim intSolution As Integer = CType(firstNum / secondNum, Integer)
+
+        txtDivisionAnswer.Text = CStr(intSolution)
+    End Sub
 End Class

@@ -29,10 +29,14 @@ Partial Class Form1
         Me.btnExit = New System.Windows.Forms.Button()
         Me.txtAddVal1 = New System.Windows.Forms.TextBox()
         Me.btnAddValues = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.txtAddVal2 = New System.Windows.Forms.TextBox()
         Me.lblAddEqual = New System.Windows.Forms.Label()
         Me.txtSumAnswer = New System.Windows.Forms.TextBox()
+        Me.txtDivisionAnswer = New System.Windows.Forms.TextBox()
+        Me.lblDivideEqual = New System.Windows.Forms.Label()
+        Me.txtDivideVal2 = New System.Windows.Forms.TextBox()
+        Me.btnDivideValues = New System.Windows.Forms.Button()
+        Me.txtDivideVal1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'lblName
@@ -91,17 +95,8 @@ Partial Class Form1
         Me.btnAddValues.Name = "btnAddValues"
         Me.btnAddValues.Size = New System.Drawing.Size(23, 23)
         Me.btnAddValues.TabIndex = 6
-        Me.btnAddValues.Text = "+"
+        Me.btnAddValues.Text = "&+"
         Me.btnAddValues.UseVisualStyleBackColor = True
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(131, 119)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(23, 23)
-        Me.Button1.TabIndex = 7
-        Me.Button1.Text = "+"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'txtAddVal2
         '
@@ -126,15 +121,58 @@ Partial Class Form1
         Me.txtSumAnswer.Size = New System.Drawing.Size(55, 20)
         Me.txtSumAnswer.TabIndex = 10
         '
+        'txtDivisionAnswer
+        '
+        Me.txtDivisionAnswer.Location = New System.Drawing.Point(179, 119)
+        Me.txtDivisionAnswer.Name = "txtDivisionAnswer"
+        Me.txtDivisionAnswer.Size = New System.Drawing.Size(55, 20)
+        Me.txtDivisionAnswer.TabIndex = 15
+        '
+        'lblDivideEqual
+        '
+        Me.lblDivideEqual.AutoSize = True
+        Me.lblDivideEqual.Location = New System.Drawing.Point(160, 122)
+        Me.lblDivideEqual.Name = "lblDivideEqual"
+        Me.lblDivideEqual.Size = New System.Drawing.Size(13, 13)
+        Me.lblDivideEqual.TabIndex = 14
+        Me.lblDivideEqual.Text = "="
+        '
+        'txtDivideVal2
+        '
+        Me.txtDivideVal2.Location = New System.Drawing.Point(99, 119)
+        Me.txtDivideVal2.Name = "txtDivideVal2"
+        Me.txtDivideVal2.Size = New System.Drawing.Size(55, 20)
+        Me.txtDivideVal2.TabIndex = 13
+        '
+        'btnDivideValues
+        '
+        Me.btnDivideValues.Location = New System.Drawing.Point(68, 117)
+        Me.btnDivideValues.Name = "btnDivideValues"
+        Me.btnDivideValues.Size = New System.Drawing.Size(23, 23)
+        Me.btnDivideValues.TabIndex = 12
+        Me.btnDivideValues.Text = "&/"
+        Me.btnDivideValues.UseVisualStyleBackColor = True
+        '
+        'txtDivideVal1
+        '
+        Me.txtDivideVal1.Location = New System.Drawing.Point(12, 119)
+        Me.txtDivideVal1.Name = "txtDivideVal1"
+        Me.txtDivideVal1.Size = New System.Drawing.Size(50, 20)
+        Me.txtDivideVal1.TabIndex = 11
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.Controls.Add(Me.txtDivisionAnswer)
+        Me.Controls.Add(Me.lblDivideEqual)
+        Me.Controls.Add(Me.txtDivideVal2)
+        Me.Controls.Add(Me.btnDivideValues)
+        Me.Controls.Add(Me.txtDivideVal1)
         Me.Controls.Add(Me.txtSumAnswer)
         Me.Controls.Add(Me.lblAddEqual)
         Me.Controls.Add(Me.txtAddVal2)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btnAddValues)
         Me.Controls.Add(Me.txtAddVal1)
         Me.Controls.Add(Me.btnExit)
@@ -156,8 +194,12 @@ Partial Class Form1
     Friend WithEvents btnExit As Button
     Friend WithEvents txtAddVal1 As TextBox
     Friend WithEvents btnAddValues As Button
-    Friend WithEvents Button1 As Button
     Friend WithEvents txtAddVal2 As TextBox
     Friend WithEvents lblAddEqual As Label
     Friend WithEvents txtSumAnswer As TextBox
+    Friend WithEvents txtDivisionAnswer As TextBox
+    Friend WithEvents lblDivideEqual As Label
+    Friend WithEvents txtDivideVal2 As TextBox
+    Friend WithEvents btnDivideValues As Button
+    Friend WithEvents txtDivideVal1 As TextBox
 End Class
