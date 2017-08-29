@@ -1,3 +1,0 @@
-*raw data will be excel base
-*find an application that can connect excel to a database
-*then find an application than can connect a database to the predictive analytics application
