@@ -23,4 +23,9 @@
         My.Forms.Form2.Text = Now.ToString
         My.Forms.Form2.Show()
     End Sub
+
+    Private Sub btnSignHome_Click(sender As Object, e As EventArgs) Handles btnSignHome.Click
+        My.Forms.Form3.Text = Now.ToString
+        My.Forms.Form3.Show()
+    End Sub
 End Class

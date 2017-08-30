@@ -27,8 +27,8 @@ Partial Class Form1
         Me.btnSignHome = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.btnHomeLogin = New System.Windows.Forms.Button()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.picSM1 = New System.Windows.Forms.PictureBox()
+        CType(Me.picSM1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -69,15 +69,15 @@ Partial Class Form1
         Me.btnHomeLogin.Text = "Login"
         Me.btnHomeLogin.UseVisualStyleBackColor = True
         '
-        'PictureBox2
+        'picSM1
         '
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(103, 24)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(197, 195)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 9
-        Me.PictureBox2.TabStop = False
+        Me.picSM1.Image = CType(resources.GetObject("picSM1.Image"), System.Drawing.Image)
+        Me.picSM1.Location = New System.Drawing.Point(103, 24)
+        Me.picSM1.Name = "picSM1"
+        Me.picSM1.Size = New System.Drawing.Size(197, 195)
+        Me.picSM1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picSM1.TabIndex = 9
+        Me.picSM1.TabStop = False
         '
         'Form1
         '
@@ -87,11 +87,11 @@ Partial Class Form1
         Me.Controls.Add(Me.btnSignHome)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.btnHomeLogin)
-        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.picSM1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picSM1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -100,5 +100,5 @@ Partial Class Form1
     Friend WithEvents btnSignHome As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents btnHomeLogin As Button
-    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents picSM1 As PictureBox
 End Class
