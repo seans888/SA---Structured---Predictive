@@ -23,79 +23,82 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Me.lblUN = New System.Windows.Forms.Label()
-        Me.lblPass = New System.Windows.Forms.Label()
-        Me.txtPass = New System.Windows.Forms.TextBox()
-        Me.txtUN = New System.Windows.Forms.TextBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnSignHome = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.btnHomeLogin = New System.Windows.Forms.Button()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'lblUN
+        'Label1
         '
-        Me.lblUN.AutoSize = True
-        Me.lblUN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblUN.Location = New System.Drawing.Point(17, 155)
-        Me.lblUN.Name = "lblUN"
-        Me.lblUN.Size = New System.Drawing.Size(87, 20)
-        Me.lblUN.TabIndex = 0
-        Me.lblUN.Text = "Username:"
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(135, 124)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(144, 20)
+        Me.Label1.TabIndex = 6
+        Me.Label1.Text = "Predictive Analytics"
         '
-        'lblPass
+        'btnSignHome
         '
-        Me.lblPass.AutoSize = True
-        Me.lblPass.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPass.Location = New System.Drawing.Point(17, 208)
-        Me.lblPass.Name = "lblPass"
-        Me.lblPass.Size = New System.Drawing.Size(82, 20)
-        Me.lblPass.TabIndex = 1
-        Me.lblPass.Text = "Password:"
+        Me.btnSignHome.Location = New System.Drawing.Point(233, 274)
+        Me.btnSignHome.Name = "btnSignHome"
+        Me.btnSignHome.Size = New System.Drawing.Size(83, 32)
+        Me.btnSignHome.TabIndex = 12
+        Me.btnSignHome.Text = "Sign-up"
+        Me.btnSignHome.UseVisualStyleBackColor = True
         '
-        'txtPass
+        'Label2
         '
-        Me.txtPass.Location = New System.Drawing.Point(110, 210)
-        Me.txtPass.Name = "txtPass"
-        Me.txtPass.Size = New System.Drawing.Size(257, 20)
-        Me.txtPass.TabIndex = 2
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(129, 231)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(144, 20)
+        Me.Label2.TabIndex = 11
+        Me.Label2.Text = "Predictive Analytics"
         '
-        'txtUN
+        'btnHomeLogin
         '
-        Me.txtUN.Location = New System.Drawing.Point(110, 157)
-        Me.txtUN.Name = "txtUN"
-        Me.txtUN.Size = New System.Drawing.Size(257, 20)
-        Me.txtUN.TabIndex = 3
+        Me.btnHomeLogin.Location = New System.Drawing.Point(82, 274)
+        Me.btnHomeLogin.Name = "btnHomeLogin"
+        Me.btnHomeLogin.Size = New System.Drawing.Size(83, 32)
+        Me.btnHomeLogin.TabIndex = 10
+        Me.btnHomeLogin.Text = "Login"
+        Me.btnHomeLogin.UseVisualStyleBackColor = True
         '
-        'PictureBox1
+        'PictureBox2
         '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(139, 12)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(128, 100)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 5
-        Me.PictureBox1.TabStop = False
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(103, 24)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(197, 195)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 9
+        Me.PictureBox2.TabStop = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(399, 330)
-        Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.txtUN)
-        Me.Controls.Add(Me.txtPass)
-        Me.Controls.Add(Me.lblPass)
-        Me.Controls.Add(Me.lblUN)
+        Me.Controls.Add(Me.btnSignHome)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.btnHomeLogin)
+        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents lblUN As Label
-    Friend WithEvents lblPass As Label
-    Friend WithEvents txtPass As TextBox
-    Friend WithEvents txtUN As TextBox
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents btnSignHome As Button
+    Friend WithEvents Label2 As Label
+    Friend WithEvents btnHomeLogin As Button
+    Friend WithEvents PictureBox2 As PictureBox
 End Class
