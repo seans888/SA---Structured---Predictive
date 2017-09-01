@@ -48,6 +48,7 @@ Partial Class Form6
         Me.lblPercentage4_6 = New System.Windows.Forms.Label()
         Me.lblConcern5_6 = New System.Windows.Forms.Label()
         Me.lblPercentage5_6 = New System.Windows.Forms.Label()
+        Me.lblSample1_6 = New System.Windows.Forms.Label()
         CType(Me.picSM2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -360,11 +361,22 @@ Partial Class Form6
         Me.lblPercentage5_6.Text = "8%"
         Me.lblPercentage5_6.UseWaitCursor = True
         '
+        'lblSample1_6
+        '
+        Me.lblSample1_6.AutoSize = True
+        Me.lblSample1_6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSample1_6.Location = New System.Drawing.Point(122, 27)
+        Me.lblSample1_6.Name = "lblSample1_6"
+        Me.lblSample1_6.Size = New System.Drawing.Size(144, 20)
+        Me.lblSample1_6.TabIndex = 19
+        Me.lblSample1_6.Text = "Sample Report 1"
+        '
         'Form6
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(399, 330)
+        Me.Controls.Add(Me.lblSample1_6)
         Me.Controls.Add(Me.btnGet5)
         Me.Controls.Add(Me.btnCpr5)
         Me.Controls.Add(Me.btnMcr5)
@@ -379,6 +391,7 @@ Partial Class Form6
         Me.TableLayoutPanel1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -407,4 +420,5 @@ Partial Class Form6
     Friend WithEvents lblPercentage4_6 As Label
     Friend WithEvents lblConcern5_6 As Label
     Friend WithEvents lblPercentage5_6 As Label
+    Friend WithEvents lblSample1_6 As Label
 End Class
