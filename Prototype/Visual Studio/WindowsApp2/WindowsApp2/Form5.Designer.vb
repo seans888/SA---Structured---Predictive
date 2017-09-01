@@ -33,7 +33,7 @@ Partial Class Form5
         Me.lblReportname5 = New System.Windows.Forms.Label()
         Me.lblSample1 = New System.Windows.Forms.Label()
         Me.lblDate1 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnInspect5 = New System.Windows.Forms.Button()
         CType(Me.picSM2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
@@ -111,7 +111,7 @@ Partial Class Form5
         Me.TableLayoutPanel1.Controls.Add(Me.lblSample1, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.lblReportname5, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Label2, 1, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.Button2, 2, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.btnInspect5, 2, 1)
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(30, 146)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
@@ -151,15 +151,15 @@ Partial Class Form5
         Me.lblDate1.TabIndex = 21
         Me.lblDate1.Text = "Aug. 31, 2017"
         '
-        'Button2
+        'btnInspect5
         '
-        Me.Button2.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button2.Location = New System.Drawing.Point(269, 24)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(51, 21)
-        Me.Button2.TabIndex = 21
-        Me.Button2.Text = "Inspect"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnInspect5.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.btnInspect5.Location = New System.Drawing.Point(269, 24)
+        Me.btnInspect5.Name = "btnInspect5"
+        Me.btnInspect5.Size = New System.Drawing.Size(51, 21)
+        Me.btnInspect5.TabIndex = 21
+        Me.btnInspect5.Text = "Inspect"
+        Me.btnInspect5.UseVisualStyleBackColor = True
         '
         'Form5
         '
@@ -192,5 +192,5 @@ Partial Class Form5
     Friend WithEvents lblReportname5 As Label
     Friend WithEvents lblDate1 As Label
     Friend WithEvents lblSample1 As Label
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnInspect5 As Button
 End Class

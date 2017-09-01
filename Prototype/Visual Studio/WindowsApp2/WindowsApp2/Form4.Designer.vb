@@ -27,9 +27,9 @@ Partial Class Form4
         Me.lblWelcome4 = New System.Windows.Forms.Label()
         Me.picSM2 = New System.Windows.Forms.PictureBox()
         Me.btnStore4 = New System.Windows.Forms.Button()
-        Me.btnManage4 = New System.Windows.Forms.Button()
+        Me.btnMcr4 = New System.Windows.Forms.Button()
         Me.btnGet4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.btnCpr4 = New System.Windows.Forms.Button()
         CType(Me.picSM2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -72,14 +72,14 @@ Partial Class Form4
         Me.btnStore4.Text = "Store Data"
         Me.btnStore4.UseVisualStyleBackColor = True
         '
-        'btnManage4
+        'btnMcr4
         '
-        Me.btnManage4.Location = New System.Drawing.Point(140, 223)
-        Me.btnManage4.Name = "btnManage4"
-        Me.btnManage4.Size = New System.Drawing.Size(106, 41)
-        Me.btnManage4.TabIndex = 9
-        Me.btnManage4.Text = "Manage Created Reports"
-        Me.btnManage4.UseVisualStyleBackColor = True
+        Me.btnMcr4.Location = New System.Drawing.Point(140, 223)
+        Me.btnMcr4.Name = "btnMcr4"
+        Me.btnMcr4.Size = New System.Drawing.Size(106, 41)
+        Me.btnMcr4.TabIndex = 9
+        Me.btnMcr4.Text = "Manage Created Reports"
+        Me.btnMcr4.UseVisualStyleBackColor = True
         '
         'btnGet4
         '
@@ -90,23 +90,23 @@ Partial Class Form4
         Me.btnGet4.Text = "Get Reports"
         Me.btnGet4.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnCpr4
         '
-        Me.Button3.Location = New System.Drawing.Point(140, 179)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(106, 41)
-        Me.Button3.TabIndex = 11
-        Me.Button3.Text = "Create Prediction Report"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnCpr4.Location = New System.Drawing.Point(140, 179)
+        Me.btnCpr4.Name = "btnCpr4"
+        Me.btnCpr4.Size = New System.Drawing.Size(106, 41)
+        Me.btnCpr4.TabIndex = 11
+        Me.btnCpr4.Text = "Create Prediction Report"
+        Me.btnCpr4.UseVisualStyleBackColor = True
         '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(399, 330)
-        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.btnCpr4)
         Me.Controls.Add(Me.btnGet4)
-        Me.Controls.Add(Me.btnManage4)
+        Me.Controls.Add(Me.btnMcr4)
         Me.Controls.Add(Me.btnStore4)
         Me.Controls.Add(Me.picSM2)
         Me.Controls.Add(Me.lblWelcome4)
@@ -123,7 +123,7 @@ Partial Class Form4
     Friend WithEvents lblWelcome4 As Label
     Friend WithEvents picSM2 As PictureBox
     Friend WithEvents btnStore4 As Button
-    Friend WithEvents btnManage4 As Button
+    Friend WithEvents btnMcr4 As Button
     Friend WithEvents btnGet4 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents btnCpr4 As Button
 End Class

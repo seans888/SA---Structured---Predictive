@@ -26,4 +26,14 @@
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles lblReportname5.Click
 
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btnInspect5.Click
+        My.Forms.Form6.Text = Now.ToString
+        My.Forms.Form6.Show()
+    End Sub
+
+    Private Sub btnHome5_Click(sender As Object, e As EventArgs) Handles btnHome5.Click
+        My.Forms.Form4.Text = Now.ToString
+        My.Forms.Form4.Show()
+    End Sub
 End Class
