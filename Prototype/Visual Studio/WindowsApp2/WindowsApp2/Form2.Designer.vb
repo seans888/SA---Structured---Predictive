@@ -84,6 +84,7 @@ Partial Class Form2
         '
         Me.txtPass2.Location = New System.Drawing.Point(102, 236)
         Me.txtPass2.Name = "txtPass2"
+        Me.txtPass2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtPass2.Size = New System.Drawing.Size(208, 20)
         Me.txtPass2.TabIndex = 9
         '
