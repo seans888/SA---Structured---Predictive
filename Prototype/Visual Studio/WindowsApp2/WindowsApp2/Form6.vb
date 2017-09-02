@@ -18,8 +18,8 @@
     End Sub
 
     Private Sub lblConcern2_6_Click(sender As Object, e As EventArgs) Handles lblConcern2_6.Click
-        My.Forms.Form8.Text = Now.ToString
-        My.Forms.Form8.Show()
+        My.Forms.Form9.Text = Now.ToString
+        My.Forms.Form9.Show()
     End Sub
 
     Private Sub btnHome5_Click(sender As Object, e As EventArgs) Handles btnHome5.Click

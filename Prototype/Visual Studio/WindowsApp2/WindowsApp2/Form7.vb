@@ -15,4 +15,8 @@
     Private Sub lblPercentage3_6_Click(sender As Object, e As EventArgs) Handles lblPercentage3_6.Click
 
     End Sub
+
+    Private Sub Form7_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

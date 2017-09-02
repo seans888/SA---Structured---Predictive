@@ -27,12 +27,13 @@ Partial Class Form7
         Me.lblPercentage2_6 = New System.Windows.Forms.Label()
         Me.lblConcern2_6 = New System.Windows.Forms.Label()
         Me.lblPercentage1_6 = New System.Windows.Forms.Label()
-        Me.lblConcern6 = New System.Windows.Forms.Label()
         Me.lblComplain1_7 = New System.Windows.Forms.Label()
         Me.lblConcern3_6 = New System.Windows.Forms.Label()
         Me.lblPercentage3_6 = New System.Windows.Forms.Label()
         Me.lblConcern4_6 = New System.Windows.Forms.Label()
         Me.lblPercentage4_6 = New System.Windows.Forms.Label()
+        Me.lblConcern6 = New System.Windows.Forms.Label()
+        Me.lblCauses7 = New System.Windows.Forms.Label()
         Me.btnGet5 = New System.Windows.Forms.Button()
         Me.btnCpr5 = New System.Windows.Forms.Button()
         Me.btnMcr5 = New System.Windows.Forms.Button()
@@ -40,10 +41,11 @@ Partial Class Form7
         Me.picSM2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.lblSample1_6 = New System.Windows.Forms.Label()
-        Me.lblCauses7 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel1.SuspendLayout()
         CType(Me.picSM2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TableLayoutPanel1
@@ -110,17 +112,6 @@ Partial Class Form7
         Me.lblPercentage1_6.Text = "Main Chef was sick"
         Me.lblPercentage1_6.UseWaitCursor = True
         '
-        'lblConcern6
-        '
-        Me.lblConcern6.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.lblConcern6.AutoSize = True
-        Me.lblConcern6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblConcern6.Location = New System.Drawing.Point(49, 6)
-        Me.lblConcern6.Name = "lblConcern6"
-        Me.lblConcern6.Size = New System.Drawing.Size(68, 15)
-        Me.lblConcern6.TabIndex = 1
-        Me.lblConcern6.Text = "Complain"
-        '
         'lblComplain1_7
         '
         Me.lblComplain1_7.Anchor = System.Windows.Forms.AnchorStyles.None
@@ -177,6 +168,28 @@ Partial Class Form7
         Me.lblPercentage4_6.TabIndex = 15
         Me.lblPercentage4_6.Text = "Syrup and butter supplies is empty"
         Me.lblPercentage4_6.UseWaitCursor = True
+        '
+        'lblConcern6
+        '
+        Me.lblConcern6.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.lblConcern6.AutoSize = True
+        Me.lblConcern6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblConcern6.Location = New System.Drawing.Point(49, 6)
+        Me.lblConcern6.Name = "lblConcern6"
+        Me.lblConcern6.Size = New System.Drawing.Size(68, 15)
+        Me.lblConcern6.TabIndex = 1
+        Me.lblConcern6.Text = "Complain"
+        '
+        'lblCauses7
+        '
+        Me.lblCauses7.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.lblCauses7.AutoSize = True
+        Me.lblCauses7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCauses7.Location = New System.Drawing.Point(221, 6)
+        Me.lblCauses7.Name = "lblCauses7"
+        Me.lblCauses7.Size = New System.Drawing.Size(54, 15)
+        Me.lblCauses7.TabIndex = 18
+        Me.lblCauses7.Text = "Causes"
         '
         'btnGet5
         '
@@ -243,28 +256,28 @@ Partial Class Form7
         '
         Me.lblSample1_6.AutoSize = True
         Me.lblSample1_6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Bold)
-        Me.lblSample1_6.Location = New System.Drawing.Point(56, 29)
+        Me.lblSample1_6.Location = New System.Drawing.Point(72, 29)
         Me.lblSample1_6.Name = "lblSample1_6"
-        Me.lblSample1_6.Size = New System.Drawing.Size(256, 18)
+        Me.lblSample1_6.Size = New System.Drawing.Size(229, 18)
         Me.lblSample1_6.TabIndex = 25
-        Me.lblSample1_6.Text = "Complain and Suggestion (Food)"
+        Me.lblSample1_6.Text = "Complain and Causes (Food)"
         '
-        'lblCauses7
+        'PictureBox2
         '
-        Me.lblCauses7.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.lblCauses7.AutoSize = True
-        Me.lblCauses7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCauses7.Location = New System.Drawing.Point(221, 6)
-        Me.lblCauses7.Name = "lblCauses7"
-        Me.lblCauses7.Size = New System.Drawing.Size(54, 15)
-        Me.lblCauses7.TabIndex = 18
-        Me.lblCauses7.Text = "Causes"
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(13, 48)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(36, 36)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 26
+        Me.PictureBox2.TabStop = False
         '
         'Form7
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(399, 330)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.lblSample1_6)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.picSM2)
@@ -279,6 +292,7 @@ Partial Class Form7
         Me.TableLayoutPanel1.PerformLayout()
         CType(Me.picSM2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -302,4 +316,5 @@ Partial Class Form7
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents lblSample1_6 As Label
     Friend WithEvents lblCauses7 As Label
+    Friend WithEvents PictureBox2 As PictureBox
 End Class
