@@ -26,7 +26,6 @@ Partial Class Form8
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.lblPercentage2_6 = New System.Windows.Forms.Label()
         Me.lblConcern2_8 = New System.Windows.Forms.Label()
-        Me.lblPercentage1_6 = New System.Windows.Forms.Label()
         Me.lblComplain1_8 = New System.Windows.Forms.Label()
         Me.lblConcern3_8 = New System.Windows.Forms.Label()
         Me.lblPercentage3_6 = New System.Windows.Forms.Label()
@@ -34,6 +33,7 @@ Partial Class Form8
         Me.lblPercentage4_6 = New System.Windows.Forms.Label()
         Me.lblConcern8 = New System.Windows.Forms.Label()
         Me.lblSuggestion8 = New System.Windows.Forms.Label()
+        Me.lblPercentage1_6 = New System.Windows.Forms.Label()
         Me.btnGet8 = New System.Windows.Forms.Button()
         Me.btnCpr8 = New System.Windows.Forms.Button()
         Me.btnMcr8 = New System.Windows.Forms.Button()
@@ -83,11 +83,11 @@ Partial Class Form8
         Me.lblPercentage2_6.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lblPercentage2_6.AutoSize = True
         Me.lblPercentage2_6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPercentage2_6.Location = New System.Drawing.Point(171, 68)
+        Me.lblPercentage2_6.Location = New System.Drawing.Point(170, 68)
         Me.lblPercentage2_6.Name = "lblPercentage2_6"
-        Me.lblPercentage2_6.Size = New System.Drawing.Size(155, 30)
+        Me.lblPercentage2_6.Size = New System.Drawing.Size(157, 30)
         Me.lblPercentage2_6.TabIndex = 8
-        Me.lblPercentage2_6.Text = "change recipe according to current chief comfort"
+        Me.lblPercentage2_6.Text = "Change recipe according to current chief comfort"
         Me.lblPercentage2_6.UseWaitCursor = True
         '
         'lblConcern2_8
@@ -100,18 +100,6 @@ Partial Class Form8
         Me.lblConcern2_8.Size = New System.Drawing.Size(128, 15)
         Me.lblConcern2_8.TabIndex = 7
         Me.lblConcern2_8.Text = "Lacks variation of food"
-        '
-        'lblPercentage1_6
-        '
-        Me.lblPercentage1_6.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.lblPercentage1_6.AutoSize = True
-        Me.lblPercentage1_6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPercentage1_6.Location = New System.Drawing.Point(203, 39)
-        Me.lblPercentage1_6.Name = "lblPercentage1_6"
-        Me.lblPercentage1_6.Size = New System.Drawing.Size(90, 13)
-        Me.lblPercentage1_6.TabIndex = 5
-        Me.lblPercentage1_6.Text = "Hiearchy of chefs"
-        Me.lblPercentage1_6.UseWaitCursor = True
         '
         'lblComplain1_8
         '
@@ -139,12 +127,12 @@ Partial Class Form8
         '
         Me.lblPercentage3_6.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lblPercentage3_6.AutoSize = True
-        Me.lblPercentage3_6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPercentage3_6.Location = New System.Drawing.Point(229, 109)
+        Me.lblPercentage3_6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPercentage3_6.Location = New System.Drawing.Point(181, 104)
         Me.lblPercentage3_6.Name = "lblPercentage3_6"
-        Me.lblPercentage3_6.Size = New System.Drawing.Size(39, 20)
+        Me.lblPercentage3_6.Size = New System.Drawing.Size(134, 30)
         Me.lblPercentage3_6.TabIndex = 11
-        Me.lblPercentage3_6.Text = "------"
+        Me.lblPercentage3_6.Text = "Manage food inventory better"
         Me.lblPercentage3_6.UseWaitCursor = True
         '
         'lblConcern4_8
@@ -163,11 +151,11 @@ Partial Class Form8
         Me.lblPercentage4_6.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lblPercentage4_6.AutoSize = True
         Me.lblPercentage4_6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPercentage4_6.Location = New System.Drawing.Point(170, 139)
+        Me.lblPercentage4_6.Location = New System.Drawing.Point(173, 139)
         Me.lblPercentage4_6.Name = "lblPercentage4_6"
-        Me.lblPercentage4_6.Size = New System.Drawing.Size(157, 30)
+        Me.lblPercentage4_6.Size = New System.Drawing.Size(150, 30)
         Me.lblPercentage4_6.TabIndex = 15
-        Me.lblPercentage4_6.Text = "Syrup and butter supplies is empty"
+        Me.lblPercentage4_6.Text = "Check food inventory daily for tomorrows preparation"
         Me.lblPercentage4_6.UseWaitCursor = True
         '
         'lblConcern8
@@ -191,6 +179,18 @@ Partial Class Form8
         Me.lblSuggestion8.Size = New System.Drawing.Size(79, 15)
         Me.lblSuggestion8.TabIndex = 18
         Me.lblSuggestion8.Text = "Suggestion"
+        '
+        'lblPercentage1_6
+        '
+        Me.lblPercentage1_6.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.lblPercentage1_6.AutoSize = True
+        Me.lblPercentage1_6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPercentage1_6.Location = New System.Drawing.Point(203, 39)
+        Me.lblPercentage1_6.Name = "lblPercentage1_6"
+        Me.lblPercentage1_6.Size = New System.Drawing.Size(90, 13)
+        Me.lblPercentage1_6.TabIndex = 5
+        Me.lblPercentage1_6.Text = "Hiearchy of chefs"
+        Me.lblPercentage1_6.UseWaitCursor = True
         '
         'btnGet8
         '
