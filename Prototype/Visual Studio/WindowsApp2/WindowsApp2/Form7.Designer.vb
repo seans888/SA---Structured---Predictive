@@ -39,13 +39,13 @@ Partial Class Form7
         Me.btnMcr5 = New System.Windows.Forms.Button()
         Me.btnHome5 = New System.Windows.Forms.Button()
         Me.picSM2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.picBack7 = New System.Windows.Forms.PictureBox()
         Me.lblSample1_6 = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.picRev7 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel1.SuspendLayout()
         CType(Me.picSM2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picBack7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picRev7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TableLayoutPanel1
@@ -242,15 +242,15 @@ Partial Class Form7
         Me.picSM2.TabIndex = 23
         Me.picSM2.TabStop = False
         '
-        'PictureBox1
+        'picBack7
         '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(37, 35)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 24
-        Me.PictureBox1.TabStop = False
+        Me.picBack7.Image = CType(resources.GetObject("picBack7.Image"), System.Drawing.Image)
+        Me.picBack7.Location = New System.Drawing.Point(12, 12)
+        Me.picBack7.Name = "picBack7"
+        Me.picBack7.Size = New System.Drawing.Size(37, 35)
+        Me.picBack7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picBack7.TabIndex = 24
+        Me.picBack7.TabStop = False
         '
         'lblSample1_6
         '
@@ -262,24 +262,24 @@ Partial Class Form7
         Me.lblSample1_6.TabIndex = 25
         Me.lblSample1_6.Text = "Complain and Causes (Food)"
         '
-        'PictureBox2
+        'picRev7
         '
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(13, 48)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(36, 36)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 26
-        Me.PictureBox2.TabStop = False
+        Me.picRev7.Image = CType(resources.GetObject("picRev7.Image"), System.Drawing.Image)
+        Me.picRev7.Location = New System.Drawing.Point(13, 48)
+        Me.picRev7.Name = "picRev7"
+        Me.picRev7.Size = New System.Drawing.Size(36, 36)
+        Me.picRev7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picRev7.TabIndex = 26
+        Me.picRev7.TabStop = False
         '
         'Form7
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(399, 330)
-        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.picRev7)
         Me.Controls.Add(Me.lblSample1_6)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.picBack7)
         Me.Controls.Add(Me.picSM2)
         Me.Controls.Add(Me.btnGet5)
         Me.Controls.Add(Me.btnCpr5)
@@ -291,8 +291,8 @@ Partial Class Form7
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         CType(Me.picSM2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picBack7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picRev7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -313,8 +313,8 @@ Partial Class Form7
     Friend WithEvents btnMcr5 As Button
     Friend WithEvents btnHome5 As Button
     Friend WithEvents picSM2 As PictureBox
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents picBack7 As PictureBox
     Friend WithEvents lblSample1_6 As Label
     Friend WithEvents lblCauses7 As Label
-    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents picRev7 As PictureBox
 End Class

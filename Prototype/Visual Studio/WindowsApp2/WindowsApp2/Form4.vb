@@ -6,5 +6,6 @@
     Private Sub btnMcr4_Click(sender As Object, e As EventArgs) Handles btnMcr4.Click
         My.Forms.Form5.Text = Now.ToString
         My.Forms.Form5.Show()
+        Me.Close()
     End Sub
 End Class
